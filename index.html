@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Time tracking dashboard</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./dist/main.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="cards-box">
+
+
+				<div class="card-main">
+          <div class="card-main__top">
+            <div class="card-main__top-imgbox">
+              <img src="./images/image-jeremy.png" alt="">
+            </div>
+            <div class="card-main__top-userinfo">
+              <p class="static-text">
+                Report for
+              </p>
+              <h3 class="user-fullname">Jeremy Robson</h3>
+            </div>
+          </div>
+          <div class="card-main__bottom">
+            <button class="card-main__bottom-btn" data-daily>Daily</button>
+            <button class="card-main__bottom-btn active" data-weekly>Weekly</button>
+            <button class="card-main__bottom-btn" data-monthly>Monthly</button>
+          </div>
+        </div>
+
+        <!-- WORK -->
+				<div class="card work">
+					<div class="card__top ">
+						<img src="./images/icon-work.svg" alt="" />
+					</div>
+					<div class="card__main">
+						<div class="card__main-title">Work</div>
+						<div class="card__main-content">32Hrs</div>
+						<img
+							src="./images/icon-ellipsis.svg"
+							alt="more info"
+							class="dots-icon"
+						/>
+						<div class="card__main-subcontent">Last Week - 36Hrs</div>
+					</div>
+				</div>
+
+        <!-- PLAY -->
+        <div class="card play">
+					<div class="card__top">
+						<img src="./images/icon-play.svg" alt="" />
+					</div>
+					<div class="card__main">
+						<div class="card__main-title">Play</div>
+						<div class="card__main-content">32Hrs</div>
+						<img
+							src="./images/icon-ellipsis.svg"
+							alt="more info"
+							class="dots-icon"
+						/>
+						<div class="card__main-subcontent">Last Week - 36Hrs</div>
+					</div>
+				</div>
+
+        <!-- STUDY -->
+        <div class="card study">
+					<div class="card__top">
+						<img src="./images/icon-study.svg" alt="" />
+					</div>
+					<div class="card__main">
+						<div class="card__main-title">Study</div>
+						<div class="card__main-content">32Hrs</div>
+						<img
+							src="./images/icon-ellipsis.svg"
+							alt="more info"
+							class="dots-icon"
+						/>
+						<div class="card__main-subcontent">Last Week - 36Hrs</div>
+					</div>
+				</div>
+
+        <!-- EXERCISE -->
+        <div class="card exercise">
+					<div class="card__top">
+						<img src="./images/icon-exercise.svg" alt="" />
+					</div>
+					<div class="card__main">
+						<div class="card__main-title">Exercise</div>
+						<div class="card__main-content">32Hrs</div>
+						<img
+							src="./images/icon-ellipsis.svg"
+							alt="more info"
+							class="dots-icon"
+						/>
+						<div class="card__main-subcontent">Last Week - 36Hrs</div>
+					</div>
+				</div>
+
+        <!-- SOCIAL -->
+        <div class="card social">
+					<div class="card__top">
+						<img src="./images/icon-social.svg" alt="" />
+					</div>
+					<div class="card__main">
+						<div class="card__main-title">Social</div>
+						<div class="card__main-content">32Hrs</div>
+						<img
+							src="./images/icon-ellipsis.svg"
+							alt="more info"
+							class="dots-icon"
+						/>
+						<div class="card__main-subcontent">Last Week - 36Hrs</div>
+					</div>
+				</div>
+
+        <!-- SELF CARE -->
+        <div class="card self-care">
+					<div class="card__top">
+						<img src="./images/icon-self-care.svg" alt="" />
+					</div>
+					<div class="card__main">
+						<div class="card__main-title">Self Care</div>
+						<div class="card__main-content">32Hrs</div>
+						<img
+							src="./images/icon-ellipsis.svg"
+							alt="more info"
+							class="dots-icon"
+						/>
+						<div class="card__main-subcontent">Last Week - 36Hrs</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="data.json"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
